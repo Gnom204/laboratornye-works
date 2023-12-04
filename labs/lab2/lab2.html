@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>Обработка события Change - изменение значения элемента</title>
+  </head>
+  <style>
+    .part {
+      border: 1px black solid;
+    }
+    body {
+      display: flex;
+    }
+  </style>
+  <body>
+    <div class="part">
+      <p>Вычисление площади треугольника по трем кордам</p>
+      <form class="result" name="form1">
+        <span>корды x1</span>
+        <input type="number" class="input1" />
+        <span>корды y1</span>
+        <input type="number" class="inputy1" />
+        <p></p>
+        <span>корды x2</span>
+        <input type="number" class="input2" />
+        <span>корды y2</span>
+        <input type="number" class="inputy2" />
+        <p></p>
+        <span>корды x3</span>
+        <input type="number" class="input3" />
+        <span>корды y3</span>
+        <input type="number" class="inputy3" />
+        <p>Результат</p>
+        <input type="submit" value="Отправляй" />
+      </form>
+      <button class="button">Нажми</button>
+      <p class="res"></p>
+    </div>
+    <div class="part">
+      <p>Вычисление расстояния от заданных координат до начала</p>
+      <span>1 корда</span>
+      <input type="number" name="" id="" class="start-vector" />
+      <p></p>
+      <span>2 корда</span>
+      <input type="number" name="" id="" class="end-vector" />
+      <p class="vector-res"></p>
+    </div>
+    <div class="part">
+      <p>Обмен значений</p>
+      <span>1 значение</span>
+      <input type="number" name="" id="" class="first" />
+      <p></p>
+      <span>2 значение</span>
+      <input type="number" name="" id="" class="second" />
+      <p class="first-val"></p>
+      <p class="second-val"></p>
+    </div>
+    <script src="./lab2.js"></script>
+  </body>
+</html>
