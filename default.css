@@ -1,0 +1,18 @@
+.part {
+  border: 1px black solid;
+  margin-right: 10px;
+}
+body {
+  display: flex;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 1px #a0a0a0 solid;
+}
+
+input[type="button"] {
+  background-color: transparent;
+  border: 1px black solid;
+  padding: 4px;
+}

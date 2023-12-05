@@ -1,0 +1,102 @@
+<html>
+  <head>
+    <title>Вычисление максимального значения</title>
+    <link rel="stylesheet" href="../../default.css" />
+    <script language="JavaScript">
+      <!-- //
+      function maxval(obj) {
+        var a = Number(obj.num1.value);
+        var b = Number(obj.num2.value);
+        var c = Number(obj.num3.value);
+        var m = a;
+        if (b > m) m = b;
+        if (c > m) m = c;
+        obj.res.value = m;
+      }
+      //-->
+    </script>
+  </head>
+  <body>
+    <a href="../../index.html">Назад</a>
+    <div class="part">
+      <h4>Вычисление максимального значения</h4>
+      <form name="form1">
+        Число 1: <input type="text" size="8" name="num1" />
+        <hr />
+        Число 2: <input type="text" size="8" name="num2" />
+        <hr />
+        Число 3: <input type="text" size="8" name="num3" />
+        <hr />
+        Максимальное значение равно
+        <input type="button" value="Определить" onClick="maxval(form1)" />
+        <input type="text" size="8" name="res" />
+        <hr />
+        <input type="reset" />
+      </form>
+    </div>
+    <div class="part">
+      <h4>Вычисление макс. значения из 5 чисел</h4>
+      <form name="form2">
+        Число 1: <input type="text" name="count1" />
+        <hr />
+        Число 2: <input type="text" name="count2" />
+        <hr />
+        Число 3: <input type="text" name="count3" />
+        <hr />
+        Число 4: <input type="text" name="count4" />
+        <hr />
+        Число 5: <input type="text" name="count5" />
+        <hr />
+        Максимальное значение равно
+        <input
+          class="button"
+          type="button"
+          onclick="getMaxCount(form2)"
+          value="Определить"
+        />
+        <input class="result" type="text" size="8" name="result" />
+        <hr />
+        <input type="reset" />
+      </form>
+    </div>
+    <div class="part">
+      <h4>Можно ли построить треугольник?</h4>
+      <form class="form3" name="form3">
+        Длина 1: <input type="text" name="len1" />
+        <hr />
+        Длина 2: <input type="text" name="len2" />
+        <hr />
+        Длина 3: <input type="text" name="len3" />
+        <hr />
+        <input
+          class="button"
+          type="button"
+          onclick="canBuildTriangle(form3)"
+          value="Определить"
+        />
+        <input class="result" type="text" size="8" name="question" />
+        <hr />
+        <input type="reset" />
+      </form>
+    </div>
+    <div class="part">
+      <h4>Оч полезная лаба, найти в какой плоскости корды сидят</h4>
+      <form name="form4">
+        1 корда <input type="text" name="kord1" />
+        <hr />
+        2 корда <input type="text" name="kord2" />
+        <hr />
+        <input
+          class="whatKord"
+          type="button"
+          onclick="whatChetvert(form4)"
+          value="Определить"
+        />
+        <input class="resultKord" type="text" size="8" name="question" />
+        <hr />
+        <input type="reset" />
+      </form>
+    </div>
+    <script src="./lab3.js"></script>
+  </body>
+</html>
