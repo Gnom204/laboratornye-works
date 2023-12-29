@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Данные, представленные флажком. Анкета переводчика</title>
+    <link rel="stylesheet" href="./lab6.css" />
+  </head>
+  <body>
+    <a href="../../index.html">Назад</a>
+    <h3>Анкета для переводчиков</h3>
+    Подберите нужный вам курс<br />
+    <form class="form1" name="form1">
+      <input type="checkbox" name="lan" value="C++" />C#<br />
+      <input type="checkbox" name="lan" value="Java" />Java<br />
+      <input type="checkbox" name="lan" value="JS" />JS<br />
+    </form>
+
+    <p>Преподаватели</p>
+    <div class="cards"></div>
+    <div class="result">Вы должны нам:<span class="res"></span></div>
+    <p>Выбранные курсы</p>
+    <div class="cards save-cards"></div>
+    <template id="courses-card">
+      <div class="card">
+        <div class="img-price">
+          <img
+            class="card-img"
+            src="https://hrmonitor.ru/wp-content/uploads/2019/02/Oleg-YUrevich-Tinkov.jpg"
+            alt="Олег Тинькок"
+          />
+          <span class="price">3450 рубасов</span>
+        </div>
+        <div class="text">
+          <span class="prepod"></span>
+          <span class="description"
+            >Плюсы самый быстрый высокоуровневый язык, я научу вас всему</span
+          >
+          <button class="get-info">Взять курс</button>
+        </div>
+      </div>
+    </template>
+    <script type="module" src="./lab6.js"></script>
+  </body>
+</html>

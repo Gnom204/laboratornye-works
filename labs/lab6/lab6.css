@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+.cards {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.card {
+  box-sizing: border-box;
+  display: flex;
+  min-width: 300px;
+  max-width: 380px;
+  max-height: 140px;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Merriweather", serif;
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  box-shadow: 0px 0px 3px #666 inset;
+  margin-bottom: 38px;
+}
+.card:hover {
+  box-shadow: -1px 1px 5px #666;
+}
+.card-img {
+  object-fit: cover;
+  border-radius: 8px;
+  width: 90px;
+  height: 90px;
+  margin-bottom: 5px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 65%;
+  margin-right: 10px;
+  height: 90%;
+  float: left;
+}
+
+.price {
+  font-size: 14px;
+}
+
+.description {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.img-price {
+  display: flex;
+  flex-direction: column;
+  max-width: 35%;
+  margin: 12px 5px 8px;
+}
+
+.prepod {
+  opacity: 0.5;
+  font-size: 12px;
+}
+
+.get-info {
+  border: 1px #44944a solid;
+  height: 30px;
+  background-color: white;
+  border-radius: 20px;
+  width: 50%;
+  cursor: pointer;
+}
+
+.get-info:hover {
+  box-shadow: inset 0px 0px 3px #44944a;
+}

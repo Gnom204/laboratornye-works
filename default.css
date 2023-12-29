@@ -16,3 +16,22 @@ input[type="button"] {
   border: 1px black solid;
   padding: 4px;
 }
+
+.img {
+  width: 153px;
+  height: 53px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.img-arrow {
+  border: 2px solid transparent;
+  border-top: 20px solid green;
+}
+
+.bord {
+  width: 100px;
+  border: 1px black solid;
+  margin-top: 50px;
+  transition: 1s;
+}
